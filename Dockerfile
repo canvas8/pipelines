@@ -32,7 +32,7 @@ RUN uv pip install --system -r requirements.txt --no-cache-dir
 
 # Copy the application code
 COPY . .
-COPY config.yaml pipelines/config.yaml
+COPY config.yaml config.yaml
 # Expose the port
 ENV HOST="0.0.0.0"
 ENV PORT="9099"
