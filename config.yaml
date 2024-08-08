@@ -1,0 +1,19 @@
+model_list:
+  - model_name: fireworks-llama-v3p1-405b-instruct
+    litellm_params:
+      model: fireworks_ai/accounts/fireworks/models/llama-v3p1-405b-instruct
+      api_key: os.environ/API_KEY
+  - model_name: fireworks-llama-v3p1-70b-instruct
+    litellm_params:
+      model: fireworks_ai/accounts/fireworks/models/llama-v3p1-70b-instruct
+      api_key: os.environ/API_KEY
+  - model_name: gemini-1.5-flash
+    litellm_params:
+      model: vertex_ai/gemini-1.5-flash-001
+      vertex_project: "canvas8-production"
+      vertex_location: "europe-west2"        
+  - model_name: gemini-1.5-pro
+    litellm_params:
+      model: vertex_ai/gemini-1.5-pro-001
+      vertex_project: "canvas8-production"
+      vertex_location: "europe-west2"
