@@ -18,6 +18,7 @@ openai
 anthropic
 google-generativeai
 litellm
+litellm[proxy]
 
 # Database
 pymongo
